@@ -85,12 +85,3 @@ body {
     opacity: 0.8;
 }
 
-#highlightPopup button:nth-child(1) {
-    background-color: #4CAF50; /* Yes button */
-    color: white;
-}
-
-#highlightPopup button:nth-child(2) {
-    background-color: #f44336; /* No button */
-    color: white;
-}
