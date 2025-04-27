@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Text Highlighter",
+    "permissions": [
+      "scripting",
+      "tabs",
+      "storage",
+      "activeTab"
+    ],
+    "icons": {
+      "32": "icon.png"
+    },
+    "version": "1.0.0",
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ]
+  }
+  
